@@ -1,16 +1,20 @@
-package miyu_demo03;
-/*
-    学生クラス
- */
+package misyudemo2;
+
+import java.util.ArrayList;
 
 public class Student {
     private int age;
     private String name;
-    public void setAge(int age){
+
+    public Student(int age,String name){
         this.age = age;
+        this.name = name;
+    }
+    public void setAge(int age){
+        this.age= age;
     }
     public void setName(String name){
-        this.name = name;
+        this.name= name;
     }
     public int getAge(){
         return age;
