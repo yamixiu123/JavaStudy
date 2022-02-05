@@ -21,4 +21,16 @@ public class Students {
     public void setAddress(String address){
         this.address = address;
     }
+    public String getName(){
+        return name;
+    }
+    public String getAge(){
+        return age;
+    }
+    public String getAddress(){
+        return address;
+    }
+    public String getSid(){
+        return sid;
+    }
 }
