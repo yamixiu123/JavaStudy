@@ -1,4 +1,4 @@
-package misyu_demo06;
+package misyu_demo04.misyu_demo06;
 
 import java.util.Scanner;
 

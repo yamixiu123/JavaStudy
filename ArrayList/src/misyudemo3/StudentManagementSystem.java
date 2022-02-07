@@ -65,8 +65,6 @@ public class StudentManagementSystem {
             s.setAddress(address);
             sData.add(s);
             System.out.println("入力完了デス");
-
-
         }
         public static void delStudents (ArrayList<Students> sData){
             Scanner sc1 = new Scanner(System.in);
